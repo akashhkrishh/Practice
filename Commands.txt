@@ -1,0 +1,3 @@
+hadoop jar /home/mca/Hadoop/share/hadoop/tools/lib/hadoop-streaming-2.7.3.jar 
+-input /testing/sample.txt -output /testing/output 
+-mapper ~/Desktop/mapper.py -reducer ~/Desktop/reducer.py 
